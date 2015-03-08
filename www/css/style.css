@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+.tabs-icon-bottom{
+    position:fixed;
+    bottom:0;
+}
+.librarylist{
+    position: relative;
+    top:50px
+}
+.item{
+    float: left;
+    width: 100%;
+}
+.librarylist ion-item{
+    float: left;
+    width:50%;
+}
+.item p{
+    font-size: 24px;
+    line-height: 30px;
+}
+ion-item:focus{
+    background:#dddddd;
+}
+
+ion-item[href*]:focus{
+    background:#dddddd;
+}
+ion-content.editmode.has-header{
+    top: 20px;
+}
+.item-toggle{
+    float:left;
+    width: 33.5%;
+}
+.card{
+    margin:20px 0;
+}
+.search{
+    font-size:21px;
+    text-align: center;
+}
+ion-item.nopaddingleft{
+    padding-left:20px;
+}

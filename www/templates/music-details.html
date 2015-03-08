@@ -1,0 +1,23 @@
+<ion-view>
+	<ion-view view-title="{{artist.artist}}" style="top:30px;">
+		<ion-content class="editmode">
+			<ion-list>
+				<ion-item align="center">
+					<img data-ng-src="{{imageuri}}" style="width: 150px; height: 150px;">
+				</ion-item>
+			</ion-list>
+			<form name="formUpdate">
+				<ion-list>
+					<ion-item>
+						<div class="list" align="center">
+							<h2>Song  {{ artist.song }}</h2>
+							<h3>Album: {{ artist.album }}</h3>
+                            <h3>Released: {{ artist.released }}</h3>
+							<h5 data-ng-show="artist.details"><strong>Lyrics: {{ artist.details }}</strong></h5>
+						</div>
+					</ion-item>
+				</ion-list>
+			</form>
+		</ion-content>
+	</ion-view>
+</ion-view>

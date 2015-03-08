@@ -1,0 +1,9 @@
+<ion-view view-title="Artists">
+	<ion-content style="position: relative;top:0px;">
+		<ion-list class="librarylist">
+			<ion-item data-ng-repeat="artist in artists" data-ui-sref="musiclibrary.bands-songlist({song: artist.artist})">
+				<p style="width:100%; text-align:center;">{{ artist.artist }}</p>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

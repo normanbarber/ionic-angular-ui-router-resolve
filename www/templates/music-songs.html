@@ -1,0 +1,11 @@
+<ion-view view-title="Music Library 1990 - 1999">
+	<ion-content>
+		<ion-list class="librarylist">
+			<ion-item data-ng-repeat="song in songlist" class="item-avatar item-icon-right" data-ui-sref="musiclibrary.musicdetails({song: song.song})">
+				<span>{{ song.song }}</span> - <span>{{ song.artist }}</span>
+				<i class="icon ion-chevron-right icon-accessory"></i>
+			</ion-item>
+
+		</ion-list>
+	</ion-content>
+</ion-view>
